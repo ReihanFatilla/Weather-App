@@ -183,7 +183,7 @@ Widget forecastElement(daysFromNow, abbr, maxTemp, minTemp) {
   var oneDayFromNow = now.add(Duration(days: daysFromNow));
 
   return Padding(
-    padding: const EdgeInsets.only(left: 12),
+    padding: const EdgeInsets.only(left: 8, right: 8),
     child: Container(
       decoration: BoxDecoration(
           color: const Color.fromRGBO(205, 212, 228, 0.2),
